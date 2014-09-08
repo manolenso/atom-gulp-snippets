@@ -1,0 +1,6 @@
+'.source.js':
+  'Gulp Task Watch':
+    'prefix': 'gtw'
+    'body': 'gulp.task(\'watch\'), function () {\n
+            gulp.watch(\'$1\', [\'$2\'])$3\n
+            });$4\n'

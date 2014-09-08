@@ -1,0 +1,4 @@
+'.source.js':
+  'Gulp Variable Require':
+    'prefix': 'guv'
+    'body':'var $1 = require(\'gulp-$2\');$3'
