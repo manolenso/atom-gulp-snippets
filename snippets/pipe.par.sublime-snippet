@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+.pipe(${1}({ ${2}: '${3}' }))${4}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>gup{}</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>Gulp.pipe.{}</description>
+</snippet>

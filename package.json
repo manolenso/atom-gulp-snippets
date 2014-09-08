@@ -1,0 +1,14 @@
+{
+  "name": "atom-gulp-snippets",
+  "main": "./lib/atom-gulp-snippets",
+  "version": "0.0.1",
+  "description": "Just some usefull snippets for gulp",
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/manolenso/atom-gulp-snippets",
+  "engines": {
+    "atom": ">0.61.0"
+  },
+  "dependencies": {
+  }
+}
