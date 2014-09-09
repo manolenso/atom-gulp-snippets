@@ -12,8 +12,7 @@ $ cd atom-gulp-snippets
 $ apm install
 $ apm link
 ```
-m link
-```
+
 ## Documentation
 
 ### [guv] Gulp plugin require
