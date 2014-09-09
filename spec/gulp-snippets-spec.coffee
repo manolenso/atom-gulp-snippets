@@ -1,4 +1,4 @@
-JavascriptSnippets = require '../lib/gulp-snippets'
+GulpSnippets = require '../lib/gulp-snippets'
 
 # Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 #
