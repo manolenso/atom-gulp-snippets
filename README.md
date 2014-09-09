@@ -33,12 +33,26 @@ gulp.task('${1:Task}'), function () {
 ### [gbp] Gulp Bracket Pipe
 
 ```javascript
-.pipe($1({$2:\'$3\'}))$3
+.pipe($1({$2:'$3'}))$3
+```
+### [guw] Gulp Watch
+
+```javascript
+gulp.watch('$1', ['$2']);$3
 ```
 
+### [gup] Gulp Pipe
 
-## Examples
+```javascript
+.pipe($1('s2'))$3
+```
+### [gtw] Gulp Task Watch
 
+```javascript
+gulp.task('watch'), function () {
+ gulp.watch('$1', ['$2'])$3
+ });$4
+```
 
 
 ## Release History
