@@ -4,7 +4,16 @@ Just some usefull snippets for gulp
 
 ## Getting Started
 Install the module with: `apm install atom-gulp-snippets`
-
+## Development
+```sh
+$ cd ~/.atom/packages
+$ git clone https://github.com/manolenso/atom-gulp-snippets
+$ cd atom-gulp-snippets
+$ apm install
+$ apm link
+```
+m link
+```
 ## Documentation
 
 ### [guv] Gulp plugin require
