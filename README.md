@@ -6,20 +6,29 @@ Just some usefull snippets for gulp
 Install the module with: `apm install atom-gulp-snippets`
 
 ## Documentation
-###Gulp snippets collection:
-guv
-```js
-var  = require('gulp-');
+
+### [guv] Gulp plugin require
+
+```javascript
+var ${1:plugin} = require('gulp-${2:plugin}');$3
 ```
----
-gus
-```js
-gulp.task(''), function () {
- return gulp.src()
- .pipe(())
- });
+
+### [gus] Gulp task source
+
+```javascript
+gulp.task('${1:Task}'), function () {
+        return gulp.src(${2:Source})
+            .pipe($3($4))$5
+});$6
 ```
----
+
+### [gbp] Gulp Bracket Pipe
+
+```javascript
+.pipe($1({$2:\'$3\'}))$3
+```
+
+
 ## Examples
 
 
