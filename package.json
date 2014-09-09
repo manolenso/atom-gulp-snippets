@@ -1,6 +1,6 @@
 {
   "name": "atom-gulp-snippets",
-  "main": "./lib/atom-gulp-snippets",
+  "main": "./lib/gulp-snippets",
   "version": "0.0.1",
   "description": "Just some usefull snippets for gulp",
   "license": "MIT",
