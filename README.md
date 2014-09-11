@@ -2,8 +2,6 @@
 
 Just some usefull snippets for gulp
 
-## Getting Started
-Install the module with: `apm install atom-gulp-snippets`
 ## Development
 ```sh
 $ cd ~/.atom/packages
@@ -46,7 +44,7 @@ gulp.watch('$1', ['$2']);$3
 ```javascript
 .pipe($1('s2'))$3
 ```
-![gup](./docs/gup.gif)
+
 ### [gtw] Gulp Task Watch
 
 ```javascript
@@ -54,10 +52,6 @@ gulp.task('watch'), function () {
  gulp.watch('$1', ['$2'])$3
  });$4
 ```
-
-
-## Release History
-_(Nothing yet)_
 
 ## License
 Copyright (c) 2014 . Licensed under the MIT license.
