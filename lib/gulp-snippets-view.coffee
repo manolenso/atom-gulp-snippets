@@ -4,7 +4,7 @@ module.exports =
 class GulpSnippetsView extends View
   @content: ->
     @div class: 'gulp-snippets overlay from-top', =>
-      @div "The GulpSnippets package is Alive! It's ALIVE!", class: "message"
+      @div "Gulp Snippets package is Active!", class: "message"
 
   initialize: (serializeState) ->
     atom.workspaceView.command "gulp-snippets:toggle", => @toggle()
