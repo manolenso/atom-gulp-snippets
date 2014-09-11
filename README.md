@@ -46,6 +46,7 @@ gulp.watch('$1', ['$2']);$3
 ```javascript
 .pipe($1('s2'))$3
 ```
+![gup](./docs/gup.gif)
 ### [gtw] Gulp Task Watch
 
 ```javascript
