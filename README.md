@@ -12,6 +12,7 @@ $ apm link
 ```
 ----
 ## Javascript: _gulp-javascript.cson_
+---
 
 #### [guv] Gulp plugin require
 
@@ -51,7 +52,9 @@ gulp.task('watch', function () {
   gulp.watch('$1', ['$2'])$3
 });$4
 ```
-## Gulp Coffeescript: _gulp-coffee.cson
+----
+## Gulp Coffeescript: _gulp-coffee.cson_
+----
 
 
 
