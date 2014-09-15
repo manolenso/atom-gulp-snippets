@@ -1,6 +1,0 @@
-".source.js":
-  "Gulp Pipe Options":
-    prefix: "guo"
-    body:"""
-    .pipe($1({$2:'$3'}))$4
-    """

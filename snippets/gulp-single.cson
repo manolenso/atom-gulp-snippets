@@ -1,9 +1,0 @@
-".source.coffee":
-  "Gulp Task Source":
-    prefix: "guc"
-    body:"""
-    gulp.task'js',->
-        gulp.src'${1:sources}'
-        .pipe ${2:plugin}()
-        .pipe ${3:plugin}()
-  """

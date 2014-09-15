@@ -1,0 +1,26 @@
+".source.coffee":
+  "Coffee Gulp Task Source":
+    prefix: "cgus"
+    body:"""
+    gulp.task '${1:name}',->
+        gulp.src '${2:sources}'
+        .pipe ${3:name}()
+        $4
+  """
+  "Coffee Gulp Pipe":
+    prefix: "cgup"
+    body:"""
+    gulp.pipe(${1:name}(${2:file}))
+  """
+  "Coffee Require variable":
+    prefix: "cguv"
+    body:"""
+    ${1:plugin-variable} = require '${2:plugin-name}'
+    $3
+  """
+  "Coffee pipe":
+    prefix: "cpip"
+    body:"""
+    .pipe ${1:name}('${2:}')$3
+    $4
+  """

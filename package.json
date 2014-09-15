@@ -1,14 +1,20 @@
 {
   "name": "atom-gulp-snippets",
   "main": "./lib/gulp-snippets",
-  "version": "0.0.1",
-  "description": "Just some usefull snippets for gulp",
+  "version": "0.1.0",
+  "description": "Coffescript & Javscript snippets for Gulp",
   "license": "MIT",
   "private": true,
   "repository": "https://github.com/manolenso/atom-gulp-snippets",
   "engines": {
     "atom": ">0.61.0"
   },
-  "dependencies": {
+  "devDependencies": {
+    "grunt": "0.4.2",
+    "grunt-cli": "0.1.11",
+    "grunt-lintspaces": "0.3.1"
+  },
+  "scripts": {
+    "test": "grunt"
   }
 }
