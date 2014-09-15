@@ -1,4 +1,0 @@
-'.source.js':
-  'Gulp Watch':
-    'prefix': 'guw'
-    'body':'gulp.watch(\'$1\', [\'$2\']);$3'

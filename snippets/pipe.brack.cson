@@ -1,4 +1,0 @@
-'.source.js':
-  'Gulp Brackets Pipe':
-    'prefix': 'gbp'
-    'body':'.pipe($1({$2:\'$3\'}))$4'

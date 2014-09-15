@@ -1,4 +1,0 @@
-'.source.js':
-  'Gulp Pipe':
-    'prefix': 'gup'
-    'body':'.pipe($1(\'$2\'))$3'
