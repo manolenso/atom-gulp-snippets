@@ -2,3 +2,6 @@ language: node_js
 node_js:
   - '0.10'
   - '0.8'
+
+  -git clone depth 1 git@github.com:manolenso/atom-gulp-snippets.git ../atom-gulp-snippet && cd atom-gulp-snippet
+  -mv ../atom-gulp-snippet
