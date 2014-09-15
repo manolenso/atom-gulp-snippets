@@ -3,4 +3,4 @@ node_js:
   - '0.10'
   - '0.8'
 before_script:
-    -git clone depth 1 git@github.com:manolenso/atom-gulp-snippets.git ../gulp-snippet && cd gulp-snippet
+    - git clone depth 1 git@github.com:manolenso/atom-gulp-snippets.git ../gulp-snippet && cd gulp-snippet
