@@ -82,6 +82,14 @@ $3
 .pipe ${1:name}('${2:}')$3
 $4
 ```
+### [cgut] Coffee Gulp Task Array
+
+```coffeescript
+gulp.task '${1:my_task}', ['$2'],->
+    ${3://Do stuff}
+$4
+```
+
 
 ## License
 Copyright (c) 2014 . Licensed under the MIT license.

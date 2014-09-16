@@ -10,7 +10,8 @@
   "Coffee Gulp Pipe":
     prefix: "cgup"
     body:"""
-    gulp.pipe(${1:name}(${2:file}))
+    .pipe ${1:name} '${2:file}'
+    $3
   """
   "Coffee Require variable":
     prefix: "cguv"
@@ -18,9 +19,22 @@
     ${1:plugin-variable} = require '${2:plugin-name}'
     $3
   """
-  "Coffee pipe":
-    prefix: "cpip"
+  "Coffee Gulp Pipe Dest":
+    prefix: "cpid"
     body:"""
-    .pipe ${1:name}('${2:}')$3
+    .pipe gulp.dest '${1:dest}';$2
+    $3
+  """
+  "Coffee Gulp Task Array":
+    prefix: "cgut"
+    body:"""
+    gulp.task '${1:my_task}', ['$2'],->
+        ${3://Do stuff}
+    $4
+  """
+  "Coffee pipe":
+    prefix: "cuop"
+    body:"""
+    .pipe ${1:name} '${2:}'$3
     $4
   """
