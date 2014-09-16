@@ -68,7 +68,8 @@ gulp.task '${1:name}',->
 ### [cgup] Coffee Gulp Pipe
 
 ```coffeescript
-gulp.pipe(${1:name}(${2:file}))
+.pipe ${1:name} '${2:file}'
+$
 ```
 ### [cguv] Coffee Require variable
 
@@ -79,8 +80,8 @@ $3
 ### [cpip] Coffee Pipe
 
 ```coffeescript
-.pipe ${1:name}('${2:}')$3
-$4
+.pipe gulp.dest '${1:dest}';$2
+$3
 ```
 ### [cgut] Coffee Gulp Task Array
 
