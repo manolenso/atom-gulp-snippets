@@ -56,7 +56,32 @@ gulp.task('watch', function () {
 ## Gulp Coffeescript: _gulp-coffee.cson_
 ----
 
+### [cgus] Coffee Gulp Task Source
 
+```coffeescript
+gulp.task '${1:name}',->
+    gulp.src '${2:sources}'
+    .pipe ${3:name}()
+    $4
+});$4
+```
+### [cgup] Coffee Gulp Pipe
+
+```coffeescript
+gulp.pipe(${1:name}(${2:file}))
+```
+### [cguv] Coffee Require variable
+
+```coffeescript
+${1:plugin-variable} = require '${2:plugin-name}'
+$3
+```
+### [cpip] Coffee Pipe
+
+```coffeescript
+.pipe ${1:name}('${2:}')$3
+$4
+```
 
 ## License
 Copyright (c) 2014 . Licensed under the MIT license.
