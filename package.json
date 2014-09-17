@@ -2,7 +2,7 @@
   "name": "atom-gulp-snippets",
   "main": "./lib/gulp-snippets",
   "version": "0.1.0",
-  "description": "Coffescript & Javscript snippets for Gulp",
+  "description": "JavaScript & CoffeScript Snippets for Gulp",
   "license": "MIT",
   "private": true,
   "repository": "https://github.com/manolenso/atom-gulp-snippets",
