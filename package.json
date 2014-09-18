@@ -1,7 +1,7 @@
 {
   "name": "atom-gulp-snippets",
   "main": "./lib/gulp-snippets",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "JavaScript & CoffeeScript snippets for Gulp",
   "license": "MIT",
   "private": true,
