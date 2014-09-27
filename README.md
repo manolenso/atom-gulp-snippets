@@ -20,8 +20,8 @@ $ apm link
 #### [gust2] to [gust5] Gulp Start 2 to 5
 
 ### start gulp project 2 to 5 plugin & npm init for package
-* disable emmet avoid
- "Uncaught Error: Passed an empty array to setSelecteBufferRanges"
+* for now,  disable emmet to avoid this error
+ _"Uncaught Error: Passed an empty array to setSelecteBufferRanges"_
 
 ```javascript
 var gulp = require(gulp),
