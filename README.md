@@ -4,7 +4,7 @@ Coffeescript & Javascript Gulp snippets
 
 ### inspired by  [Gulp-cheatsheet](https://github.com/osscafe/gulp-cheatsheet)
 ---
-### Install with `apm install atom-gulp-snippets`
+### Install with `apm install gulp-snippets`
 
 ## Development
 ```sh
@@ -16,6 +16,30 @@ $ apm link
 ```
 ----
 # `Javascript: gulp-javascript.cson`
+
+#### [gust2] to [gust5] Gulp Start 2 to 5
+
+### start gulp project 2 to 5 plugin & npm init for package
+* disable emmet avoid
+ "Uncaught Error: Passed an empty array to setSelecteBufferRanges"
+
+```javascript
+var gulp = require(gulp),
+    concat = require('gulp-concat'),
+    coffee = require('gulp-coffee'),
+    uglify = require('gulp-uglify'),
+    imagemin = require('gulp-imagemin'),
+    sourcemaps = require('gulp-sourcemaps');
+
+//Ctrl-x and Paste in terminal
+npm init &&
+npm install --save-dev gulp &&
+npm install --save-dev gulp-concat &&
+npm install --save-dev gulp-coffee &&
+npm install --save-dev gulp-uglify &&
+npm install --save-dev gulp-imagemin &&
+npm install --save-dev gulp-sourcemaps
+```
 
 
 #### [guv] Gulp plugin require
