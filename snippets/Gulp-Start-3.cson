@@ -8,7 +8,8 @@
         ${5:plugin} = require('gulp-${6:plugin_name}');
 
     //Ctrl-x and Paste in terminal
-    ${7:npm init &&
+    ${7:touch README.md &&
+    npm init &&
     npm install --save-dev gulp &&
     npm install --save-dev gulp-${2:plugin_name} &&
     npm install --save-dev gulp-${4:plugin_name} &&
