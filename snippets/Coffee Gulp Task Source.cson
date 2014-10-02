@@ -6,4 +6,4 @@
         gulp.src '${2:sources}'
         .pipe ${3:name}()
     $4
-  """
+    """

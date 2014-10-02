@@ -14,4 +14,4 @@
     npm install --save-dev gulp-${2:plugin_name} &&
     npm install --save-dev gulp-${4:plugin_name} &&
     npm install --save-dev gulp-${6:plugin_name}}
-  """
+    """
