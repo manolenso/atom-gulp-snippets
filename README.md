@@ -12,6 +12,7 @@ $ cd atom-gulp-snippets
 $ apm install
 $ apm link
 ```
+#test
 
 # `Gulp JavaScript:`
 
