@@ -2,6 +2,6 @@
   "Coffee Gulp Pipe":
     prefix: "cgup"
     body:"""
-    .pipe ${1:name} '${2:file}'
+    .pipe ${1:plugin}($2)
     $3
     """

@@ -3,7 +3,7 @@
     prefix: "cgus"
     body:"""
     gulp.task '${1:name}', ->
-        gulp.src '${2:sources}'
-        .pipe ${3:name}()
+      gulp.src '${2:sources}'
+        .pipe ${3:plugin}()
     $4
     """

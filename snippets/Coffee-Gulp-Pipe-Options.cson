@@ -2,6 +2,6 @@
   "Coffee pipe option":
     prefix: "cpio"
     body:"""
-        .pipe ${1:name} '${2:option}'$3
-    $4
+    .pipe ${1:plugin} '${2:option}'
+    $3
     """
