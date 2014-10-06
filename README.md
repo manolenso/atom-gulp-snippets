@@ -123,12 +123,6 @@ gulp.task '${1:name}', ->
     .pipe ${3:plugin}($4)
     $5
 ```
-### [cgup] Coffee Gulp Pipe
-
-```coffeescript
-.pipe ${1:plugin}($2)
-$3
-```
 
 ### [cguw] Coffee Task Watch
 
@@ -136,6 +130,13 @@ $3
 gulp.task 'watch', ->
   gulp.watch '$1', ['$2']
   $3
+```
+
+### [cgup] Coffee Gulp Pipe
+
+```coffeescript
+.pipe ${1:plugin}($2)
+$3
 ```
 
 ## License
