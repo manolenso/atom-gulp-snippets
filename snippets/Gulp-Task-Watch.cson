@@ -3,6 +3,6 @@
     prefix: "guw"
     body:"""
     gulp.task('watch', function () {
-      gulp.watch('$1', ['$2'])$3
-    });$4
+      gulp.watch('$1', ['$2']);$3
+    });
     """

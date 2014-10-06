@@ -1,8 +1,0 @@
-".source.js":
-  "Gulp Task Array":
-    prefix: "gut"
-    body:"""
-    gulp.task('${1:my_task}', ['$2'], function() {
-        ${3://Do stuff}
-    });$4
-    """

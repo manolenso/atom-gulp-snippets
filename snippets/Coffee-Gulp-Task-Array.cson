@@ -1,8 +1,0 @@
-".source.coffee":
-  "Coffee Gulp Task Array":
-    prefix: "cgut"
-    body:"""
-    gulp.task '${1:my_task}', ['$2'], ->
-      ${3:#Do stuff}
-    $4
-    """

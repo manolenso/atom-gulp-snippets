@@ -1,7 +1,0 @@
-".source.coffee":
-  "Coffee pipe option":
-    prefix: "cpio"
-    body:"""
-    .pipe ${1:plugin} '${2:option}'
-    $3
-    """

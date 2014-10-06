@@ -3,6 +3,6 @@
     prefix: "cguw"
     body:"""
     gulp.task 'watch', ->
-      gulp.watch '$1', ['$2']$3
-    $4
+      gulp.watch '$1', ['$2']
+      $3
     """

@@ -25,6 +25,7 @@ and install Gulp plugins.
 
 #### [gust2] to [gust5] Gulp Start project
 
+
 ```javascript
 var gulp = require(gulp),
 ${1:plugin} = require('gulp-${2:plugin_name}'),
@@ -32,6 +33,7 @@ ${3:plugin} = require('gulp-${4:plugin_name}'),
 ${5:plugin} = require('gulp-${6:plugin_name}'),
 ${7:plugin} = require('gulp-${8:plugin_name}'),
 ${9:plugin} = require('gulp-${10:plugin_name}');
+```
 
 //Ctrl-x and Paste in terminal
 ${11:touch README.md &&
@@ -42,7 +44,7 @@ npm install --save-dev gulp-${4:plugin_name} &&
 npm install --save-dev gulp-${6:plugin_name} &&
 npm install --save-dev gulp-${8:plugin_name} &&
 npm install --save-dev gulp-${10:plugin_name}}
-```
+
 
 
 #### [guv] Gulp plugin require
@@ -50,39 +52,30 @@ npm install --save-dev gulp-${10:plugin_name}}
 ```javascript
 var ${1:plugin-variable} = require('gulp-${2:plugin-name}');$3
 ```
-
-#### [gut] Gulp task Array
-
-```javascript
-gulp.task('${1:my_task}', ['$2'], function() {
-    ${3://Do stuff}
-});$4
-```
-
-#### [guo] Gulp Pipe Option
+#### [gus] Gulp Task Source
 
 ```javascript
-.pipe($1({$2:'$3'}))$4
+gulp.task('${1:Task}', function () {
+  return gulp.src('${2:Source}')
+  .pipe(${3:plugin}($4))$5
+  $6
+});
 ```
 #### [guw] Gulp Task Watch
 
 ```javascript
-gulp.watch('$1', ['$2']);$3
+gulp.task('watch', function () {
+  gulp.watch('$1', ['$2']);$3
+});
 ```
 
 #### [gup] Gulp Pipe
 
 ```javascript
-.pipe(${1:name}('${2:file}'))$3
+.pipe(${1:plugin}($2))
+$3
 ```
 
-#### [guw] Gulp Task Watch
-
-```javascript
-gulp.task('watch', function () {
-  gulp.watch('$1', ['$2'])$3
-});$4
-```
 ----
 # `Gulp CoffeeScript:`
 
@@ -103,6 +96,7 @@ ${3:plugin} = require('gulp-${4:plugin_name}'),
 ${5:plugin} = require('gulp-${6:plugin_name}'),
 ${7:plugin} = require('gulp-${8:plugin_name}'),
 ${9:plugin} = require('gulp-${10:plugin_name}');
+```
 
 //Ctrl-x and Paste in terminal
 ${11:touch README.md &&
@@ -113,48 +107,35 @@ npm install --save-dev gulp-${4:plugin_name} &&
 npm install --save-dev gulp-${6:plugin_name} &&
 npm install --save-dev gulp-${8:plugin_name} &&
 npm install --save-dev gulp-${10:plugin_name}}
-```
 
+### [cguv] Coffee Require variable
+
+```coffeescript
+${1:plugin} = require 'gulp-${2:plugin_name}'
+$3
+```
 
 ### [cgus] Coffee Gulp Task Source
 
 ```coffeescript
 gulp.task '${1:name}', ->
-    gulp.src '${2:sources}'
-    .pipe ${3:name}()
-$4
+  gulp.src '${2:sources}'
+    .pipe ${3:plugin}($4)
+    $5
 ```
 ### [cgup] Coffee Gulp Pipe
 
 ```coffeescript
-.pipe ${1:name} '${2:file}'
-$
-```
-### [cguv] Coffee Require variable
-
-```coffeescript
-${1:plugin} = require 'gulp-${2:plugin-name}'
+.pipe ${1:plugin}($2)
 $3
 ```
-### [cpio] Coffee Gulp Pipe Option
 
-```coffeescript
-.pipe gulp.dest '${1:dest}'$2
-$3
-```
-### [cgut] Coffee Gulp Task Array
-
-```coffeescript
-gulp.task '${1:my_task}', ['$2'], ->
-    ${3:#Do stuff}
-$4
-```
 ### [cguw] Coffee Task Watch
 
 ```coffeescript
 gulp.task 'watch', ->
-    gulp.watch '$1', ['$2']$3
-$4
+  gulp.watch '$1', ['$2']
+  $3
 ```
 
 ## License

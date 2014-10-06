@@ -2,8 +2,9 @@
   "Gulp Task Source":
     prefix: "gus"
     body:"""
-    gulp.task('${1:Task}'), function () {
+    gulp.task('${1:Task}', function () {
       return gulp.src('${2:Source}')
-      .pipe(${3:name}($4))$5
-    });$6
+      .pipe(${3:plugin}($4))$5
+      $6
+    });
     """
