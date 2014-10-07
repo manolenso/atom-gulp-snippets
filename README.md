@@ -102,6 +102,7 @@ ${9:plugin} = require('gulp-${10:plugin_name}');
 ${11:touch README.md &&
 npm init &&
 npm install --save-dev gulp &&
+npm install --save-dev coffee-script &&
 npm install --save-dev gulp-${2:plugin_name} &&
 npm install --save-dev gulp-${4:plugin_name} &&
 npm install --save-dev gulp-${6:plugin_name} &&
