@@ -1,6 +1,6 @@
 ---
 # Coffeescript & Javascript Gulp snippets for [Atom](http://atom.io)
-[![Build Status](https://travis-ci.org/manolenso/atom-gulp-snippets.svg?branch=master)](https://travis-ci.org/manolenso/atom-gulp-snippet)
+[![Build Status](https://travis-ci.org/manolenso/atom-gulp-snippets.svg?branch=master)](https://travis-ci.org/manolenso/atom-gulp-snippets)
 
 ---
 
