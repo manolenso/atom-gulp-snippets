@@ -1,5 +1,7 @@
 ---
 # Coffeescript & Javascript Gulp snippets for [Atom](http://atom.io)
+[![Build Status](https://secure.travis-ci.org/manolenso/atom-gulp-snippets.svg?branch=master)](https://travis-ci.org/manolenso/atom-gulp-snippet)
+
 ---
 
 ### Install with `apm install gulp-snippets`
@@ -167,4 +169,4 @@ gulp.task 'default', ['$1', '$2', '$3', '$4', 'watch']$9
 ```
 
 ## License
-[MIT Licence](LICENCE.md) © Laurent Remy 
+[MIT Licence](LICENCE.md)©Laurent Remy
