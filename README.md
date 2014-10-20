@@ -1,5 +1,5 @@
 ---
-# Coffeescript & Javascript Gulp snippets for [Atom][http://atom.io]
+# Coffeescript & Javascript Gulp snippets for [Atom](http://atom.io)
 ---
 
 ### Install with `apm install gulp-snippets`
@@ -167,4 +167,4 @@ gulp.task 'default', ['$1', '$2', '$3', '$4', 'watch']$9
 ```
 
 ## License
-Copyright (c) 2014 . Licensed under the MIT license.
+[MIT Licence](LICENCE.md) © Laurent Remy 
