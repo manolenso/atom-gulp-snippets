@@ -54,6 +54,13 @@ npm install --save-dev gulp-${10:plugin_name}}
 ```javascript
 var ${1:plugin-variable} = require('gulp-${2:plugin-name}');$3
 ```
+### [gupth] Gulp Paths
+
+```javascript
+var ${1:varPath} = [
+  '${2:Path/to/folders/files}'$3
+];
+```
 ### [gus] Gulp Task Source
 
 ```javascript
@@ -131,7 +138,13 @@ npm install --save-dev gulp-${10:plugin_name}}
 ${1:plugin} = require 'gulp-${2:plugin_name}'
 $3
 ```
+### [cgupth] Coffee Paths
 
+```javascript
+${1:varPath} = [
+  '${2:Path/to/folders/files}'$3
+]
+```
 ### [cgus] Coffee Gulp Task Source
 
 ```coffeescript
