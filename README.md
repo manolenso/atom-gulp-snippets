@@ -22,9 +22,6 @@ This is for starting gulp project, 2 to 5 plugins require,
 CTRL+x and paste in terminal create: README.md, package.json
 and install Gulp plugins.
 
-* for now,  disable emmet to avoid this error
- _"Uncaught Error: Passed an empty array to setSelecteBufferRanges"_
-
 ### [gust2] to [gust5] Gulp Start project
 
 
@@ -105,6 +102,7 @@ gulp.task('default', ['$1', '$2', '$3', '$4', 'watch']);$9
 This is for starting gulp project, 2 to 5 plugins require,
 CTRL+x and paste in terminal create: README.md, package.json
 and install Gulp plugins.
+
 
 ### [cgust2] to [cgust5] Coffee Gulp Start project
 
