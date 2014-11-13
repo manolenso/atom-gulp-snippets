@@ -133,7 +133,7 @@ npm install --save-dev gulp-${10:plugin_name}}
 ${1:plugin} = require 'gulp-${2:plugin_name}'
 $3
 ```
-### [cgupth] Coffee Paths
+### [cgupth] Coffee Gulp Paths
 
 ```javascript
 ${1:varPath} = [
