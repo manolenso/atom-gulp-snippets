@@ -2,7 +2,7 @@
   "Gulp Start 3":
     prefix: "gust3"
     body:"""
-    var gulp = require(gulp),
+    var gulp = require('gulp'),
         ${1:plugin} = require('gulp-${2:plugin_name}'),
         ${3:plugin} = require('gulp-${4:plugin_name}'),
         ${5:plugin} = require('gulp-${6:plugin_name}');
