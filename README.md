@@ -78,8 +78,7 @@ gulp.task('watch', function () {
 ### [gup] Gulp Pipe
 
 ```javascript
-.pipe(${1:plugin}($2))
-$3
+.pipe(${1:plugin}($2))$3
 ```
 ### [guw2] to [guw5] Gulp Task Watch, 2 to 5 tasks as default
 
@@ -160,8 +159,7 @@ gulp.task 'watch', ->
 ### [cgup] Coffee Gulp Pipe
 
 ```coffeescript
-.pipe ${1:plugin}($2)
-$3
+.pipe ${1:plugin}($2)$3
 ```
 
 ### [cguw2] to [cguw5] Gulp Task Watch, 2 to 5 tasks as default

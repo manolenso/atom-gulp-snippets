@@ -2,6 +2,5 @@
   "Gulp Pipe":
     prefix: 'gup'
     body:"""
-    .pipe(${1:plugin}($2))
-    $3
+    .pipe(${1:plugin}($2));$3
     """
